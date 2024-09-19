@@ -14,8 +14,15 @@
   "contributes": {
     "commands": [
       {
-        "command": "reagents.helloWorld",
-        "title": "Hello World"
+        "command": "extension.deepCopyFunction",
+        "title": "Deep Copy Function"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "extension.deepCopyFunction",
+        "key": "ctrl+k ctrl+c",
+        "when": "editorTextFocus"
       }
     ]
   },
